@@ -426,11 +426,11 @@ Debugging/Testing options:
   -debug=<category>
        Output debugging information (default: 0, supplying <category> is
        optional). If <category> is not supplied or if <category> = 1, output
-       all debugging information. <category> can be: addrman, alert, bench,
-       coindb, db, http, libevent, lock, mempool, mempoolrej, net,
-       partitioncheck, pow, proxy, prune, rand, receiveunsafe, reindex, rpc,
-       selectcoins, tor, valuepool, zmq, zrpc, zrpcunsafe (implies zrpc). For
-       multiple specific categories use -debug=<category> multiple times.
+       all debugging information. <category> can be: addrman, bench, coindb,
+       db, http, libevent, lock, mempool, mempoolrej, net, partitioncheck, pow,
+       proxy, prune, rand, receiveunsafe, reindex, rpc, selectcoins, tor,
+       valuepool, zmq, zrpc, zrpcunsafe (implies zrpc). For multiple specific
+       categories use -debug=<category> multiple times.
 
   -experimentalfeatures
        Enable use of experimental features

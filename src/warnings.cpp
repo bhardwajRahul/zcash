@@ -8,7 +8,6 @@
 #include "clientversion.h"
 #include "util/system.h"
 #include "warnings.h"
-#include "alert.h"
 #include "uint256.h"
 
 CCriticalSection cs_warnings;
